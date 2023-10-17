@@ -20,6 +20,18 @@ function NavBar() {
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+              <NavLink
+                exact
+                to="/login
+                "
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+               Login
+              </NavLink>
+            </li>
             <li className="nav-item">
               <NavLink
                 exact
@@ -56,7 +68,8 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/contact"
+                to="/contact
+                "
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}

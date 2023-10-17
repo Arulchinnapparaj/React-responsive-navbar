@@ -1,0 +1,103 @@
+
+.user{
+    font-size:30px;
+}
+p{
+    color: black;
+}
+h1{
+    color:#1877f2 ;
+}
+button{
+   width: 330px;
+   height: 50px;
+   background-color:#1877f2;
+   font: 20px Helvetica,Arial,sans-serif;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+.tex{
+    font-size: 30px;
+    margin-bottom: 90px;
+}
+
+input{
+   width: 300px;
+   height: 45px;
+  border-radius: 5px;
+  margin-bottom: -5%;
+ padding-left: 10px;
+    
+}
+
+::placeholder {
+    color: #777;
+    font-size: 1.063rem;
+  }
+
+body{
+
+    background-color:#f0f2f5;
+}
+
+ .p1{
+ 
+    display: flex;
+   justify-content: space-between;
+   max-width: 700px;
+   margin: auto;
+  margin-left: 300px;
+  
+
+ }
+ .form1{
+    margin-left: 170px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 50px;
+  }
+  .form1 a{
+    font-size:  15px;
+    color: #1877f2;
+    text-decoration: none;
+  }
+  .form1 a:hover{
+    text-decoration: underline;
+  }
+ .b2{
+    background-color: #42B72A;
+    border-radius: 5px;
+    width: 180px;
+    font: 17px Helvetica,Arial,sans-serif;
+ }
+.p3{
+    font-size:15px ;
+    color: black;
+    padding: 20px;
+    margin-left: 150px;
+}
+.p3 b{
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+.p3 a{
+    text-decoration: none;
+    color: black;
+}
+.p3 a:hover{
+    text-decoration: underline;
+}
+.tex h4{
+    
+    color: black;
+    text-align:start;
+}
+  
+ 
+
+
